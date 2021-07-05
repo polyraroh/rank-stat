@@ -1,0 +1,68 @@
+\documentclass[tikz]{standalone}
+
+\tikzset{%
+    bb/.style = {%
+        draw = black,
+    },
+    hyperplane/.style = {%
+        draw =gray!50,
+        line width=0.3pt
+    },
+    vertex/.style = {%
+        circle,
+        minimum size = 0.5pt,
+        inner sep = 0pt,
+        draw =black,
+        font=\tiny,
+        %fill =red,
+    },
+    every node/.style = {%
+        inner sep = 0pt,
+    },
+    hyplabel/.style = {%
+        pos=0.95,
+        sloped,
+        font = \bf\tiny,
+    },
+    over cell/.style = {%
+        ->,
+        draw=black,
+        line width=0.7pt
+    },
+    improving direction/.style = {%
+        ->,
+        draw=none,
+        line width=0pt
+    },
+    ray shooting/.style = {%
+        ->,
+        draw=black,
+        line width=0.7pt
+    },
+    minimum/.style = {%
+        circle,
+        minimum size=5pt,
+        inner sep=0pt,
+        draw=black,
+    },
+    local minimum/.style = {
+        circle,
+        minimum size=3pt,
+        inner sep=0pt,
+        draw=white,
+    },
+    cell minimum line/.style = {
+        line width=0.2pt,densely dotted,gray!50!white,
+    },
+    IRLS iteration/.style = {
+        ->,
+        draw=white,
+        line width=0.7pt,
+    },
+    contour/.style = {
+        line width=0.3pt,
+        draw=gray,
+    },
+}
+
+\begin{document}
