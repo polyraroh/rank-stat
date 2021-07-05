@@ -4,7 +4,7 @@ A library for computation of R-estimators and visualizing the nice geometry of i
 Currently, there is little to no documentation. Some is available as docstrings in the files.
 
 ## Usage
-The main file is `rs.py`. It provides class `rankStat`, which provides all the functionalities. The following code snippet creates a random 2D instance, evaluates estimator using WoA algorithm (an exact LP-based algorithm) and draws the problem.
+The main file is `rs.py`. It provides class `rankStat`, which provides all the functionalities. For example, the following code snippet creates a random 2D instance, evaluates estimator using WoA algorithm (an exact LP-based algorithm) and draws the problem.
 ```
 instance = rs.rankStat(10,2)
 instance.WoA()
