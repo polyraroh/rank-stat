@@ -15,3 +15,6 @@ instance.visualize()
 Currently, `gurobipy` module and `gurobi` itself is required for LP solving. TeX distribution with TikZ is necessary for visualizations.
 
 Aside from these, there are no uncommon packages that would be hard to obtain.
+
+## Contact
+Questions? Contact me via miroslav.rada@vse.cz.
